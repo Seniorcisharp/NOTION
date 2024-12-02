@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": "cb880cf6-209b-4c9f-81b2-033cf6b2db03",
+      "name": "sdfjmnbsdmnf",
+      "age": "2131231",
+      "gender": "female",
+      "avatarUrl": "",
+      "email": "user48@gmail.com",
+      "password": "$2a$10$sDZiI5DpH/ErPOhLjc4MBO19SxRsdMhl8pIhkKD233vlVeXSbGAqO",
+      "createdAt": "2024-11-22T20:56:55.294Z"
+    },
+    {
+      "id": "e4c6ffcd-eb93-4507-b98e-27837ee0d24b",
+      "name": "f",
+      "age": "123",
+      "gender": "female",
+      "avatarUrl": "",
+      "email": "user49@gmail.com",
+      "password": "$2a$10$9de55KZXsxYTVxtWKvTkOuf0Bf1Q2O9z8F.pthZyOWqpuDTjn33fq",
+      "createdAt": "2024-11-22T21:03:59.906Z"
+    },
+    {
+      "id": "be9e9f86-6cec-411b-ae97-feed9290208b",
+      "name": "Алексей",
+      "age": "29",
+      "gender": "female",
+      "avatarUrl": "",
+      "email": "user50@gmail.com",
+      "password": "$2a$10$OSdbe3CAj9DzT4CM5Ed2ZuL49n9Ay0HCMrns5PlmK/nLDoGpmU7v6",
+      "createdAt": "2024-12-02T08:42:00.948Z"
+    }
+  ],
+  "notes": [
+    {
+      "id": "b65fe7f6-137e-48ea-a51e-eff66b67d11b",
+      "title": "sdfksdk",
+      "body": "sdkfljskjlf",
+      "createdAt": "2024-11-22T20:57:26.265Z"
+    },
+    {
+      "id": "2dfe48a4-b879-43a9-bead-1e56c24fce38",
+      "title": "привет",
+      "body": "",
+      "createdAt": "2024-11-22T21:04:27.158Z"
+    }
+  ]
+}

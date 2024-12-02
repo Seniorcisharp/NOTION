@@ -1,0 +1,194 @@
+.notes-page {
+  text-align: center;
+  padding: 40px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  height: 100vh;
+  align-items: center;
+}
+
+.notes-page h1 {
+  font-size: 32px;
+  color: #6c63ff;
+  margin-bottom: 20px;
+  font-weight: 700;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  padding: 20px;
+  z-index: 10;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+input[type="text"] {
+  width: 100%;
+  max-width: 600px;
+  padding: 14px 16px;
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  transition: border 0.3s ease, background-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #6c63ff;
+  background-color: #ffffff;
+}
+
+.button {
+  background-color: #6c63ff;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-bottom: 30px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #5a54e0;
+  transform: scale(1.03);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+li {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  max-width: 600px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+li div strong {
+  font-size: 20px;
+  font-weight: 700;
+  color: #6c63ff;
+  margin-bottom: 10px;
+}
+
+li div p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+  max-height: 120px;
+  overflow-y: auto;
+}
+
+li div p::-webkit-scrollbar {
+  width: 8px;
+}
+
+li div p::-webkit-scrollbar-track {
+  background: #f9f9f9;
+}
+
+li div p::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+li div p::-webkit-scrollbar-thumb:hover {
+  background: #bbb;
+}
+
+li div span {
+  font-size: 14px;
+  color: #777;
+  margin-top: 10px;
+}
+
+li div button {
+  background-color: #6c63ff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 10px;
+}
+
+li div button:hover {
+  background-color: #5a54e0;
+  transform: scale(1.05);
+}
+
+li div button:active {
+  background-color: #423bb5;
+  transform: translateY(2px);
+}
+
+@media (max-width: 600px) {
+  .notes-page {
+    padding: 20px;
+  }
+
+  .notes-page h1 {
+    font-size: 28px;
+  }
+
+  input[type="text"] {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .button {
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  li {
+    width: 100%;
+    padding: 16px;
+  }
+
+  li div strong {
+    font-size: 18px;
+  }
+
+  li div p {
+    max-height: 100px;
+  }
+
+  li div button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
